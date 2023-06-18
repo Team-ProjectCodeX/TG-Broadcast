@@ -7,7 +7,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import REPO.modules.sql.users_sql as sql
-from REPO import DEV_USERS, OWNER_ID, pbot as pgram
+from REPO import DEV_USERS, OWNER_ID, pgram
 from REPO.modules.sql.users_sql import get_all_users
 
 # get_arg function to retrieve an argument from a message
